@@ -113,12 +113,15 @@ nav.sticky .menu-btn{
   width: 100%;
   /* background-color: black; */
   background-image: url(./Images/background12.jpg);
+  opacity: 0.6;
+  /* background-position: 30px; */
+  background-repeat: no-repeat;
   color: white;
-
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
   font-family: 'Ubuntu', sans-serif;
+  
 }
 .home .home-content{
   width: 90%;
@@ -141,13 +144,13 @@ nav.sticky .menu-btn{
   text-align: center;
 }
 .home .text-three{
-  font-size: 53px;
+  font-size: 50px;
   margin: 5px 0;
-  color: #4070f4;
+  color: white;
   text-align: center;
 }
 .home .text-four{
-  font-size: 30px;
+  font-size: 25px;
   margin: 5px 0;
   color: white;
   text-align: center;
