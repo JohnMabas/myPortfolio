@@ -31,7 +31,7 @@ nav .navbar{
 nav .navbar .logo a{
   font-weight: 500;
   font-size: 35px;
-  color: black;
+  color: white;
 }
 nav.sticky .navbar .logo a{
   color: #fff;
@@ -47,12 +47,12 @@ nav .navbar .menu li{
 .navbar .menu a{
   font-size: 18px;
   font-weight: 500;
-  color: #0E2431;
+  color: white;
   padding: 6px 0;
   transition: all 0.4s ease;
 }
 .navbar .menu a:hover{
-  color: black;
+  color: white;
 }
 nav.sticky .menu a{
   color: #FFF;
@@ -82,7 +82,7 @@ nav .menu-btn,
   display: none;
 }
 nav .menu-btn{
-  color: black;
+  color: white;
 }
 nav.sticky .menu-btn{
   color: #FFF;
@@ -111,6 +111,10 @@ nav.sticky .menu-btn{
 .home{
   height: 100vh;
   width: 100%;
+  /* background-color: black; */
+  background-image: url(./Images/background12.jpg);
+  color: white;
+
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -125,27 +129,27 @@ nav.sticky .menu-btn{
   justify-content: center;
 }
 .home .text-one{
-  font-size: 25px;
-  color: #0E2431;
+  font-size: 35px;
+  color: white;
   text-align: center;
 }
 .home .text-two{
-  color: #0E2431;
-  font-size: 75px;
+  color: white;
+  font-size: 70px;
   font-weight: 600;
   margin-left: -3px;
   text-align: center;
 }
 .home .text-three{
-  font-size: 40px;
+  font-size: 53px;
   margin: 5px 0;
   color: #4070f4;
   text-align: center;
 }
 .home .text-four{
-  font-size: 23px;
+  font-size: 30px;
   margin: 5px 0;
-  color: #0E2431;
+  color: white;
   text-align: center;
 }
 
@@ -308,10 +312,11 @@ section .button button:hover{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  /* margin: 50px; */
 }
 .services .boxes .box{
   margin: 20px 0;
-  width: calc(100% / 3 - 20px);
+  /* width: calc(100% / 3 - 20px); */
   text-align: center;
   border-radius: 12px;
   padding: 30px 10px;
