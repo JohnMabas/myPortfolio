@@ -433,6 +433,7 @@ footer .text span a{
     /* margin-top: 200px; */
     /* top: 50%; */
     min-width: 100%;
+    object-fit:fill ;
 
   }
 }
